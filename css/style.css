@@ -1,7 +1,9 @@
 /* Ini CSS External */
 
 body {
-  font-family: fantasy;
+  font-family: system-ui;
+  font-weight: bolder;
+  color: black;
 }
 
 .main-header > h1 {
