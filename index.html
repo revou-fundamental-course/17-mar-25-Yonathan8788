@@ -3,19 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kalkulator Matematik-Yonathan</title>
 
-    <!-- CSS external -->
-    <link rel="stylesheet" href="css\style.css" />
+    <!-- CSS External -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <!-- Header -->
-    <header></header>
+    <header class="main-header">
+      <h1>Kalkulator Matematik</h1>
+    </header>
 
-    <!-- Main Content-->
-    <main></main>
+    <!-- Main Content -->
+    <main>
+      <header>
+        <h1>Selamat Datang Di Website Kalkulator Matematik</h1>
+      </header>
 
-    <footer></footer>
+      <!-- Navigasi Fitur -->
+      <div class="nav-fitur">
+        <a href="" class="nav-fitur-active">Persegi</a>
+        <a href="" class="nav-fitur-non-active">Persegi Panjang</a>
+      </div>
+
+      <!-- Section Luas -->
+      <section>
+        <header class="section-header">
+          <h1>Luas Persegi</h1>
+        </header>
+
+        <!-- Gambar Luas -->
+        <div class="section-image"></div>
+      </section>
+
+        <!-- Konten Perhitungan -->
+        <div class="calculate-content">
+          <form>
+            <div>
+              <label for="sisi-input">Sisi</label>
+              <input type="number" name="sisi-input" id="sisi-input" required />
+            </div>
+
+            <button type="button" onclick="validateForm()">Hitung</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Section Keliling -->
+      <section>
+        <header class="section-header">
+          <h1>Keliling Persegi</h1>
+          </header>
+
+        <!-- Gambar Keliling -->
+        <div class="section-image"></div>
+      </section>
+
+        <!-- Konten Perhitungan -->
+        <div class="calculate-content"></div>
+        <form>
+          <div>
+            <label for="sisi-input">Sisi</label>
+            <input type="number" name="sisi-input" id="sisi-input" required />
+          </div>
+
+          <button type="button" onclick="validateForm()">Hitung</button>
+        </form>
+      </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Made by Yonathan E.S</p>
+    </footer>
+
+    <!-- Java Script External -->
+    <script src="js/script.js"></script>
   </body>
 </html>
+
